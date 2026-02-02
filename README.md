@@ -110,6 +110,10 @@ img=cv2.imread('Eagle_in_Flight.jpg',cv2.IMREAD_COLOR)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 img_rgb.shape
 ```
+Output:
+```
+(600, 768, 3)
+```
 
 #### 11. Add the following text to the dark area at the bottom of the image (centered on the image):
 ```python
