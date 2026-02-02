@@ -292,13 +292,17 @@ plt.show()
   7.Display the images (Original, Lower Contrast, Higher Contrast):
   <img width="973" height="268" alt="image" src="https://github.com/user-attachments/assets/5b58cd0e-f9df-4f72-ae7d-c1e99a10a1f7" />
 
+
   8.Split the image into the B,G,R components & Display the channels:
+  
   <img width="924" height="260" alt="image" src="https://github.com/user-attachments/assets/73a7f533-40b6-4add-9e4d-c12611c5b1ab" />
 
   9.merged the R, G, B , display along with orginal image:
+  
   <img width="485" height="397" alt="image" src="https://github.com/user-attachments/assets/bdd70ed4-4d81-4eda-8a81-2f11a1fe1b2c" />
 
   10.Split the image into the H, S, V components & Display the channels:
+  
   <img width="936" height="285" alt="image" src="https://github.com/user-attachments/assets/22c12dbc-a6c9-4634-82cc-a6f816ee9629" />
 
   11.merged the H, S, V, display along with orginal image:
