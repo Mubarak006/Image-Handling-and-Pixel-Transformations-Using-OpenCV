@@ -278,7 +278,7 @@ plt.show()
 
   3. Cropped Region"
   <img width="389" height="480" alt="image" src="https://github.com/user-attachments/assets/fed67ac3-2811-4f66-a6de-a7ab44f3c439" />
-  (450, 350, 3)
+
 
   4. Flipped Image:
   <img width="481" height="484" alt="image" src="https://github.com/user-attachments/assets/007d316f-5811-4ff6-bfb4-5c03dde8f2d7" />
