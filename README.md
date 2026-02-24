@@ -125,61 +125,24 @@ plt.show()
 
 #### 12. Draw a magenta rectangle that encompasses the launch tower and the rocket.
 ```python
-rcol= (255, 0, 255)
-cv2.rectangle(img_rgb, (400, 100), (800, 650), rcol, 3)
+# Read image
+img = cv2.imread("Apollo-11-launch.jpg")
+
+# Convert BGR to RGB for matplotlib
+img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
+# Rose / Magenta color
+color = (255, 0, 255)
+
+# Draw rectangle (x1, y1) to (x2, y2)
+cv2.rectangle(img_rgb, (400, 50), (800, 650), color, 4)
+
+# Display
+plt.imshow(img_rgb)
+plt.axis("off")
 ```
-Output:
-```
-array([[[120, 151, 180],
-        [119, 150, 179],
-        [122, 153, 182],
-        ...,
-        [ 76, 107, 136],
-        [ 78, 107, 139],
-        [ 80, 109, 141]],
 
-       [[123, 154, 183],
-        [121, 152, 181],
-        [120, 151, 180],
-        ...,
-        [ 75, 106, 135],
-        [ 74, 105, 136],
-        [ 73, 104, 135]],
 
-       [[121, 152, 181],
-        [121, 152, 181],
-        [119, 150, 179],
-        ...,
-        [ 71, 105, 133],
-        [ 69, 103, 131],
-        [ 67, 101, 129]],
-
-       ...,
-
-       [[ 96, 125, 155],
-        [ 99, 128, 158],
-        [ 99, 128, 158],
-        ...,
-        [106, 133, 162],
-        [110, 137, 166],
-        [111, 138, 167]],
-
-       [[106, 133, 163],
-        [112, 139, 169],
-        [113, 139, 172],
-        ...,
-        [106, 133, 163],
-        [102, 131, 161],
-        [ 96, 125, 155]],
-
-       [[103, 130, 160],
-        [111, 138, 168],
-        [114, 140, 173],
-        ...,
-        [ 98, 125, 155],
-        [ 92, 121, 151],
-        [ 86, 115, 145]]], shape=(600, 768, 3), dtype=uint8)
-```
 
 #### 13. Display the final annotated image.
 ```python
@@ -288,29 +251,27 @@ plt.show()
   <img width="481" height="484" alt="image" src="https://github.com/user-attachments/assets/007d316f-5811-4ff6-bfb4-5c03dde8f2d7" />
 
   5. Annotated Image:
-  <img width="649" height="521" alt="image" src="https://github.com/user-attachments/assets/16494b63-46ee-44c2-9547-2c888854be7b" />
+  <img width="709" height="440" alt="image" src="https://github.com/user-attachments/assets/f9aa2d82-0a51-4333-befc-84ed18a04202" />
 
   6.Display the images (Original Image, Darker Image, Brighter Image):
-  <img width="978" height="294" alt="image" src="https://github.com/user-attachments/assets/4e5c06bd-c733-4642-b74e-ab38c1582b7f" />
+  <img width="1007" height="298" alt="image" src="https://github.com/user-attachments/assets/c1b97b43-b772-4e3f-ae06-d1e737e199e4" />
 
   7.Display the images (Original, Lower Contrast, Higher Contrast):
-  <img width="973" height="268" alt="image" src="https://github.com/user-attachments/assets/5b58cd0e-f9df-4f72-ae7d-c1e99a10a1f7" />
-
+  <img width="1020" height="300" alt="image" src="https://github.com/user-attachments/assets/1548a02e-3036-4083-a901-12917b91e3a8" />
 
   8.Split the image into the B,G,R components & Display the channels:
+  <img width="1027" height="283" alt="image" src="https://github.com/user-attachments/assets/ebdd990b-427c-4cdf-a953-14885d2e54b2" />
   
-  <img width="924" height="260" alt="image" src="https://github.com/user-attachments/assets/73a7f533-40b6-4add-9e4d-c12611c5b1ab" />
-
   9.merged the R, G, B , display along with orginal image:
-  
-  <img width="485" height="397" alt="image" src="https://github.com/user-attachments/assets/bdd70ed4-4d81-4eda-8a81-2f11a1fe1b2c" />
+  <img width="542" height="423" alt="image" src="https://github.com/user-attachments/assets/20737f49-629c-4d7e-bb53-f02a7a1433f4" />
+
 
   10.Split the image into the H, S, V components & Display the channels:
-  
-  <img width="936" height="285" alt="image" src="https://github.com/user-attachments/assets/22c12dbc-a6c9-4634-82cc-a6f816ee9629" />
+  <img width="1046" height="310" alt="image" src="https://github.com/user-attachments/assets/c797c4e5-3574-43ab-8611-0ec4b5ee6487" />
 
   11.merged the H, S, V, display along with orginal image:
-  <img width="895" height="390" alt="image" src="https://github.com/user-attachments/assets/8e8d2e20-1a19-4da5-8cbd-a34274a006b8" />
+  <img width="1008" height="412" alt="image" src="https://github.com/user-attachments/assets/5c74d527-77f5-422a-969a-eadc742045b9" />
+
 
 
 
