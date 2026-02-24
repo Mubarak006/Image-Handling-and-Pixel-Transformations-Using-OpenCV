@@ -237,11 +237,13 @@ plt.show()
 
 ## Output:
 
-  1..Read 'Eagle_in_Flight.jpg' as grayscale and display:
+  1.Read 'Eagle_in_Flight.jpg' as grayscale and display:
   <img width="616" height="473" alt="Screenshot 2026-02-02 121036" src="https://github.com/user-attachments/assets/afc8befc-4657-4539-a3bc-16c02c3e3aa0" />
+  
 
   2.Save image as PNG and display:
  <img width="629" height="456" alt="image" src="https://github.com/user-attachments/assets/a38b0dd2-fcc0-4d8d-803a-6bf154ee9b1c" />
+ 
 
   3. Cropped Region"
   <img width="389" height="480" alt="image" src="https://github.com/user-attachments/assets/fed67ac3-2811-4f66-a6de-a7ab44f3c439" />
@@ -249,18 +251,23 @@ plt.show()
 
   4. Flipped Image:
   <img width="481" height="484" alt="image" src="https://github.com/user-attachments/assets/007d316f-5811-4ff6-bfb4-5c03dde8f2d7" />
+  
 
   5. Annotated Image:
   <img width="709" height="440" alt="image" src="https://github.com/user-attachments/assets/f9aa2d82-0a51-4333-befc-84ed18a04202" />
+  
 
   6.Display the images (Original Image, Darker Image, Brighter Image):
   <img width="1007" height="298" alt="image" src="https://github.com/user-attachments/assets/c1b97b43-b772-4e3f-ae06-d1e737e199e4" />
+  
 
   7.Display the images (Original, Lower Contrast, Higher Contrast):
   <img width="1020" height="300" alt="image" src="https://github.com/user-attachments/assets/1548a02e-3036-4083-a901-12917b91e3a8" />
+  
 
   8.Split the image into the B,G,R components & Display the channels:
   <img width="1027" height="283" alt="image" src="https://github.com/user-attachments/assets/ebdd990b-427c-4cdf-a953-14885d2e54b2" />
+  
   
   9.merged the R, G, B , display along with orginal image:
   <img width="542" height="423" alt="image" src="https://github.com/user-attachments/assets/20737f49-629c-4d7e-bb53-f02a7a1433f4" />
@@ -268,6 +275,7 @@ plt.show()
 
   10.Split the image into the H, S, V components & Display the channels:
   <img width="1046" height="310" alt="image" src="https://github.com/user-attachments/assets/c797c4e5-3574-43ab-8611-0ec4b5ee6487" />
+  
 
   11.merged the H, S, V, display along with orginal image:
   <img width="1008" height="412" alt="image" src="https://github.com/user-attachments/assets/5c74d527-77f5-422a-969a-eadc742045b9" />
